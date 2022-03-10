@@ -399,10 +399,13 @@ iframe{
 #navigation{
   position: fixed;
   z-index: 5;
-  width: 100%;
+  width: 0%;
   background: rgb(252, 238, 226);
   height: 100%;
-  transition: 0.5s;
+  -webkit-transition: width 2s ease;
+     -moz-transition: width 2s ease;
+       -o-transition: width 2s ease;
+          transition: width 2s ease;
   font-weight: bold;
   display: none;
 }
@@ -414,6 +417,7 @@ iframe{
 }
 #hamburg{
   display: none;
+  
 }
 
 #navigation ul{
@@ -427,8 +431,9 @@ iframe{
   list-style: none;
   font-size: 4rem;
 }
-#navigation.active{
+#navigation.target{
   display: block;
+  width: 100%;
 }
 
 .hidden{
