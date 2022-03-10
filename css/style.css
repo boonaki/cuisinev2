@@ -431,7 +431,7 @@ iframe{
   list-style: none;
   font-size: 4rem;
 }
-#navigation.target{
+#navigation.active{
   display: block;
   width: 100%;
 }
