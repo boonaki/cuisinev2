@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>My Cart</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      	rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=League+Spartan&family=Sansita+Swashed&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<section id="navigation">
+			<a href="#"><span id= "hamburg2" class="hidden icon solid fa-bars"></span></a>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index.html#order">MENU</a></li>
+				<li><a href="locations.html">LOCATIONS</a></li>
+				<li><a href="mycart.html">YOUR ORDERS</a></li>
+			</ul>
+		</section>
+
+<!------------------------------------------->
+
+		<header class="clearfix">
+			<nav>
+				<ul>
+					<li class="navItem"><a href="index.html">Home</a></li>
+					<li class="navItem"><a href="index.html#order">Menus</a></li>
+					<li class="navItem"><a href="mycart.html">Your Orders</a></li>
+					<!-- <li class="navItem"><a href="#">Blog</a></li> -->
+					<li class="navItem"><a href="locations.html#locations">Locations</a></li>
+					<li><span class="icon solid fa-bread-slice"></span></li>
+					<li><a href="#"><span id= "hamburg" class="icon solid fa-bars"></span></a></li>
+				</ul>
+				
+			</nav>
+			<section>
+				<h1>Our Cuisine Restaraunt</h1>
+				<form action=""><input id="search" type="text" placeholder="Search More">
+				<span class="loc"><a href="#">Go</a></span></form>
+
+				<span class="adjust icon brands fa-facebook-f"><span class="count">262k</span></span>
+				<span class="adjust icon brands fa-twitter"><span class="count">62k</span></span>
+				<span class="adjust icon brands fa-instagram"><span class="count">55k</span></span>
+			</section>
+		</header>
+
+		<main id="cart" class="main" name="cart">
+			<section>
+				<h4>The Cart</h4>
+				<h2>Your Orders</h2>
+				<section id="tableCopy">
+					<span>Unavailable :(</span>
+				</section>
+				<!-- <table id="theCartTable">
+					
+					<tr>
+						<td>no orders yet</td>
+					</tr>
+				</table> -->
+				
+				<div>
+					<a class="discover" href="index.html">Go Back Home</a>
+					<!-- <span class="arrow icon solid fa-arrow-right"></span> -->
+				</div>
+			</section>
+		</main>
+
+		<!-- <section id="order" class="orderOnline clearfix">
+			<h4>Order Online Now</h4>
+			<h2>Our Specialty Cuisine</h2>
+			<ul>
+				<li class="oOli"><a href="#">Breakfast</a></li>
+				<li class="oOli"><a href="#">Lunch</a></li>
+				<li class="oOli"><a href="#">Dinner</a></li>
+				<li class="oOli"><a href="#">Dessert</a></li>
+				<li class="oOli"><a href="#">Shake</a></li>
+			</ul>
+			<section id="boxes">
+				<section id="b1">
+					<div><img src="img/box1.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$5.99</h5>
+						<h5 class="itemName">Avocado Toast w/Poached Egg</h5>
+						<p class="description">2 slices of toast topped with a generous layer of avocado and garnished with a poached egg.</p>
+					</div>
+				</section>
+
+				<section id="b2">
+					<div><img src="img/box2.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$6.99</h5>
+						<h5 class="itemName">Garden Salad</h5>
+						<p class="description">Lettuce with cherry tomatoes, grilled chicken topped with french croutons and a vinagarette.</p>
+					</div>
+				</section>
+
+				<section id="b3">
+					<div><img src="img/box3.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">8.99</h5>
+						<h5 class="itemName">Strawberries & Cream Pancakes</h5>
+						<p class="description">Fresh pancakes layered with house-made cream and strawberries</p>
+					</div>
+				</section>
+
+				<section id="b4">
+					<div><img src="img/box4.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$12.99</h5>
+						<h5 class="itemName">Ploughman's Breakfast</h5>
+						<p class="description">A full & hearty meal, a nutritious start to the day.</p>
+					</div>
+				</section>
+
+				<section id="b5">
+					<div><img src="img/box5.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$11.99</h5>
+						<h5 class="itemName">Breakfast Burger</h5>
+						<p class="description">A 2in. patty, covered in our special spicy-sauce, avocado, topped with an over-easy egg and finished with our in-house buns</p>
+					</div>
+				</section>
+
+				<section id="b6">
+					<div><img src="img/box6.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$8.99</h5>
+						<h5 class="itemName">Breakfast Biscuit</h5>
+						<p class="description">Honey-smoked Bacon, covered in our special spicy-sauce, avocado, topped with an over-easy egg and finished with our in-house biscuit</p>
+					</div>
+				</section>
+
+				<section id="b7">
+					<div><img src="img/box7.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$14.99</h5>
+						<h5 class="itemName">Salad</h5>
+						<p class="description">A bunch of leaves</p>
+					</div>
+				</section>
+
+				<section id="b8">
+					<div><img src="img/box8.png" class="image"></div>
+					<div class="overlay overlayFade">
+						<h5 class="price">$14.99</h5>
+						<h5 class="itemName">Salad</h5>
+						<p class="description">A bunch of leaves</p>
+					</div>
+				</section> 
+			</section>
+		</section>
+
+		<section class="booktable">
+			<section>
+				<h4>Book Table</h4>
+				<h2>Opening Hours</h2>
+				
+				<span id="phone" class="icon solid fa-phone"></span>
+				<span>Call Us!</span>
+				<span>(123) 456-7890</span>
+				<section>
+					<section>
+						<span>Monday - Thursday</span>
+						<span>09:00am - 22:00pm</span>
+					</section>
+						
+					<section>
+						<span>Friday - Sunday</span>
+						<span>11:00am - 20:00pm</span>
+					</section>
+				</section>
+			</section>
+		</section>
+
+		<section class="testimonials">
+			<section>
+				<h4>Testimonials</h4>
+				<h2>Customer Say</h2>
+				 <img src="#" alt="headshot"> 
+				<h3>Mr John Smith</h3>
+				<span>Art Director</span>
+				<section id="stars">
+					<span class="icon solid fa-star"></span>
+					<span class="icon solid fa-star"></span>
+					<span class="icon solid fa-star"></span>
+					<span class="icon solid fa-star"></span>
+					<span class="icon solid fa-star"></span>
+				</section>
+				<p> Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+					Cuisine is a team work of Cuisine Restaraunt Cafe, we aim at promoting the foodstuff industry through the brances,
+					we establish and through new dishes.</p>
+			</section>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
