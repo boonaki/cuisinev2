@@ -399,15 +399,13 @@ iframe{
 #navigation{
   position: fixed;
   z-index: 5;
-  width: 0%;
   background: rgb(252, 238, 226);
   height: 100%;
-  -webkit-transition: width 2s ease;
-     -moz-transition: width 2s ease;
-       -o-transition: width 2s ease;
-          transition: width 2s ease;
+  width: 100%;
+  transform: translate3d(-100%, 0px, 0px);
+  transition: all .5s ease 0s;
   font-weight: bold;
-  display: none;
+  visibility: hidden;
 }
 #hamburg2{
   z-index: 5;
@@ -431,9 +429,9 @@ iframe{
   list-style: none;
   font-size: 4rem;
 }
-#navigation.active{
-  display: block;
-  width: 100%;
+#navigation:target{
+  visibility: visible;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .hidden{
