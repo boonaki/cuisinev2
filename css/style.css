@@ -30,7 +30,7 @@
 /*******************************************/
 
 body {
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'League Spartan', sans-serif;
   
 }
 html{
@@ -114,9 +114,9 @@ nav + section{
   margin-top: 70px;
 }
 h1, h2{
-  font-family: 'Sansita Swashed', sans-serif;
+  font-family: 'Courgette', sans-serif;
   font-size: 6.5rem;
-  line-height: 45px;
+  line-height: 50px;
 } 
 section h1:last-of-type{
   margin-top: 0;
@@ -132,12 +132,14 @@ section h1:first-of-type{
   background: white;
   font-size: 2rem;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 .loc, .arrow, .discover{
   padding: 15px 30px 15px 30px;
   background: rgb(255, 188, 100);
   font-size: 2rem;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 .adjust{
  margin-right: 10%;
@@ -477,9 +479,9 @@ iframe{
     line-height: 24px;
   }
   main section{
-    width: 80%;
-    padding: 40px 0;
-    margin: 0 10%;
+    width: 100%;
+    padding: 40px 40px;
+    /* margin: 0 10%; */
   }
   main{
     background-size: auto;
@@ -512,7 +514,7 @@ iframe{
     margin-bottom: 20px;
   }
   .loc, .arrow, .discover{
-    padding: 8px;
+    padding: 10px 16px;
   }
   .adjust{
     background: white;
