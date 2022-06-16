@@ -118,6 +118,14 @@ h1, h2{
   font-size: 6.5rem;
   line-height: 45px;
 } 
+section h1:last-of-type{
+  margin-top: 0;
+  font-style: normal;
+}
+section h1:first-of-type{
+  font-size: 6.8rem;
+  margin-bottom: 10px;
+}
 
 #search{
   padding: 15px 150px 15px 15px;
@@ -534,10 +542,11 @@ iframe{
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 540px){
   nav + section{
-    margin-left: 5%;
+    margin-left: 0;
     margin-top: 0;
+    padding: 0 5%;
   }
   header{
     background-position: 50% 0;
