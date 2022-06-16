@@ -358,7 +358,7 @@ h3 + span{
 .testimonials p{
   font-size: 1.8rem;
   width: 100%;
-  padding: 0 5%;
+  padding: 0 20%;
   line-height: 30px;
 }
 
@@ -476,7 +476,7 @@ iframe{
     font-size: 5.5rem;
   }
   main p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 24px;
   }
   main section{
@@ -542,6 +542,9 @@ iframe{
   }
   #locInnerSecs{
     width: 100%;
+  }
+  .testimonials p{
+    padding: 0 10%;
   }
 }
 
