@@ -124,7 +124,7 @@ section h1:last-of-type{
 }
 section h1:first-of-type{
   font-size: 6.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #search{
@@ -159,7 +159,7 @@ main{
   background-size: 100%;
 }
 h4{
-  color: rgb(255, 188, 100);
+  color: rgb(204, 166, 79);
   font-size: 2.5rem;
 }
 main h2{
@@ -297,9 +297,10 @@ li a:hover{
 /*******************************************/
 
 .booktable{
-  background-image: url("../img/bg3.png");
+  /* background-image: url("../img/bg3.png"); */
   height: 100%;
   text-align: center;
+  background: rgb(255, 188, 100, 30%);
 }
 .booktable > section{
   padding: 75px 0;
